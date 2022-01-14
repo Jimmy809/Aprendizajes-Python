@@ -1,4 +1,5 @@
 # if traduccion es "si" ej: si a es mayor que 0 es un numero positivo
+# puedo tener varios if
 
 a = 0
 
