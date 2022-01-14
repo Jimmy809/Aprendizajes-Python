@@ -1,6 +1,5 @@
 # Las tuplas son similares a una lista,
 # creadas con una variable luego () y separado por comas
-from socket import NI_NUMERICHOST
 
 
 nombres = ("Carlos", "Marcos", "Luz", "Luis")
