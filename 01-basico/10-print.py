@@ -1,6 +1,6 @@
 # usamos print para mostrar en pantalla la informacion q solicitemos
 
-nombre = 'Marcos'
+nombre = 'marcos'
 print(nombre)
 
 nombres = '''Marcos
@@ -35,3 +35,6 @@ print(nombre.lower())
 
 # para remplazar una letra o palabras
 print(nombre.replace('c', 'p'))
+
+# para poner la primera letra mayuscula
+print(nombre.capitalize())
