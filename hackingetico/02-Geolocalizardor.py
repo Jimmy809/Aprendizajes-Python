@@ -1,7 +1,7 @@
 #!usr/bin/env python
 # https://www.studytonight.com/network-programming-in-python/pygeoip-module
 import pygeoip
-ip = '31.10.154.43'
+ip = '31.10.154.44'
 
 gi = pygeoip.GeoIP('hackingetico/geolitecity-data/GeoLiteCity.dat')
 def printRecord(ip):
