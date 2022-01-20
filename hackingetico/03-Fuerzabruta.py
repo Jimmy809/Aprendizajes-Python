@@ -1,3 +1,6 @@
+# modo de ejecucion en concola copiar y pegar
+# python \hackingetico\\03-Fuerzabruta.py -u poner un usuario -w wordlist.txt (en wordlist modificar las pass)
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
