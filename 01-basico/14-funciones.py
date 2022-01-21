@@ -39,7 +39,20 @@
 # mifuncion() # en vez del print escribimos la funcion
 
 # # ejemplo 2
-def suma2 (x, y):
-     print(x + y)
+# def suma2 (x, y):
+#      print(x + y)
 
-suma2(10, 10)
+# suma2(10, 10)
+
+# uso de if
+def numeropositivo(x):
+    if x > 0:
+        print ('Tu numero es positivo')
+    elif x < 0:
+        print ('Tu numero es negativo')
+    else:
+        print (' Tu numero es 0')
+
+numero = int(input('Introduce un numero positivo o negativo: '))
+
+numeropositivo(numero)
