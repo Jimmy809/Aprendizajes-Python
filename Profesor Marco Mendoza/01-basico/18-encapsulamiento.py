@@ -1,0 +1,15 @@
+#Encapsulamiento
+class encap:
+    def __init__(self):
+        self.__numero = 0 #aqui hemos encapsulado la vvariable numero para que no pueda ser modificado desde fuera
+        
+    def operacion(self):
+        print(self.__numero + 20)
+        
+    def resultado(self):
+        return self.__numero
+    
+ejemplo = encap()
+ejemplo.operacion()
+ejemplo.__numero = 100
+print(ejemplo.resultado())
